@@ -6,9 +6,9 @@
       <option name="WORKING_DIRECTORY" value="/" />
     </exec>
   </tool>
-  <tool name="Restart Localtunnel Server" description="Restart Localtunnel Server" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="488b9e6f-b0a8-4222-88ed-d4f04d50713a">
+  <tool name="Restart Localtunnel Server" description="Restart Localtunnel Server" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="488b9e6f-b0a8-4222-88ed-d4f04d50713a">
     <exec>
-      <option name="COMMAND" value="pm2" />
+      <option name="COMMAND" value="/home/ubuntu/.nvm/v0.10.41/bin/pm2" />
       <option name="PARAMETERS" value="restart tunnel" />
       <option name="WORKING_DIRECTORY" value="/" />
     </exec>
