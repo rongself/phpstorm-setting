@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="localtunnel restart" description="localtunnel restart" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false" CONNECTION_TYPE="NONE">
+    <exec>
+      <option name="COMMAND" value="pm2" />
+      <option name="PARAMETERS" value="restart lt" />
+      <option name="WORKING_DIRECTORY" value="/" />
+    </exec>
+  </tool>
+</toolSet>
