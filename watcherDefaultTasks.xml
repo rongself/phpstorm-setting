@@ -1,0 +1,67 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--no--commet --no-color $FileName$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="LESS" />
+      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="D:/xampp/htdocs/xsale-zf2$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="G:/Coding/less.js-windows-v1.5.0/lessc.cmd" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compresses .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="css" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="YUI Compressor CSS" />
+      <option name="output" value="$FileNameWithoutExtension$.min.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/OneDrive/softwave/yuicompressor-2.4.8.jar" />
+      <option name="scopeName" value="npmignore" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.js" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compresses .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="YUI Compressor JS" />
+      <option name="output" value="$FileNameWithoutExtension$.min.js" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/OneDrive/softwave/yuicompressor-2.4.8.jar" />
+      <option name="scopeName" value="npmignore" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
