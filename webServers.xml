@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="bc10466b-c7ef-45b2-9ddf-098a168805c9" name="wx1.bilinxy.com" url="http://wx1.bilinxy.com">
+        <fileTransfer host="wx1.bilinxy.com" port="22" accessType="SFTP" password="df8edfcbdfcedff9dff8df89dfe0dfc5df9edfe3" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="562283e1-83dc-4b67-984a-4b0cf55459f6" name="localhost-vm" url="http://vm.local">
         <fileTransfer host="vm.local" port="22" rootFolder="/var/www" accessType="SFTP" password="dfcfdfc9dfc2dfc5df9bdf93df93df9bdf99df98df9a" username="www">
           <advancedOptions>
