@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="RemoteTool_External Tools_Restart Tunnel Local">
+    <keyboard-shortcut first-keystroke="alt r" second-keystroke="l" />
+  </action>
+  <action id="RemoteTool_External Tools_Restart Tunnel Server">
+    <keyboard-shortcut first-keystroke="alt r" second-keystroke="s" />
+  </action>
+</keymap>

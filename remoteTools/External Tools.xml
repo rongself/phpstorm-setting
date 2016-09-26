@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Restart Tunnel Server" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="bc10466b-c7ef-45b2-9ddf-098a168805c9">
+    <exec>
+      <option name="COMMAND" value="pm2" />
+      <option name="PARAMETERS" value="restart tunnel" />
+      <option name="WORKING_DIRECTORY" value="~/" />
+    </exec>
+  </tool>
+  <tool name="Restart Tunnel Local" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="562283e1-83dc-4b67-984a-4b0cf55459f6">
+    <exec>
+      <option name="COMMAND" value="pm2" />
+      <option name="PARAMETERS" value="restart bltunnel" />
+      <option name="WORKING_DIRECTORY" value="~/" />
+    </exec>
+  </tool>
+</toolSet>
