@@ -5,5 +5,10 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="LESS" injector-id="xml">
+      <display-name>vue-less</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("style"))]]></place>
+      <xpath-condition>lower-case(@lang)='less'</xpath-condition>
+    </injection>
   </component>
 </application>
